@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/rrlc5/super_flutter_game.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[user]
+	email = rrlc5@users.noreply.github.com
+	name = rrlc5

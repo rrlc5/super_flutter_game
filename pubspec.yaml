@@ -1,0 +1,19 @@
+name: super_flutter_game
+description: A simple Flutter game integrated with Firebase and AdMob.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.0.0
+  firebase_auth: ^4.0.0
+  google_sign_in: ^6.0.0
+  google_mobile_ads: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
