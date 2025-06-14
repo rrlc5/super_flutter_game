@@ -2,19 +2,23 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(SuperApp());
+  runApp(const MyApp());
 }
 
-class SuperApp extends StatelessWidget {
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       title: 'Super Game',
-      theme: ThemeData(primarySwatch: Colors.blue),
       home: Scaffold(
-        appBar: AppBar(title: Text('Super Game')),
-        body: Center(child: Text('Welcome to Super!', style: TextStyle(fontSize: 24))),
+        appBar: AppBar(
+          title: const Text('لعبة Super'),
+        ),
+        body: const Center(
+          child: Text('مرحبًا بك في لعبة Super!'),
+        ),
       ),
     );
   }
